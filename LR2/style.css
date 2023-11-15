@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+header{
+    width: 100%;
+    height: 94px;
+    flex-shrink: 0;
+    background: #1E1E1E;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+}
+body{
+    background: url("/images/back.png"), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.logo{
+    width: 63px;
+    height: 67px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+h1{
+    margin-left: 1%;
+    margin-top: 24px;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(268deg, #FE5814 27.88%, #FCA10C 69.71%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.mainBox {
+    width: 876px;
+    height: 537px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 5px solid #DD6E30;
+    background: rgba(14, 13, 13, 0.70);
+    margin-top: 9%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.auth{
+    width: 647px;
+    height: 67px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 3%;
+}
+.loginBox{
+    width: 741px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 5px solid #DD6E30;
+    background: rgba(0, 0, 0, 0.10);
+    margin-top: 7%;
+    
+}
+.pwdBox{
+    width: 741px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 5px solid #DD6E30;
+    background: rgba(0, 0, 0, 0.10);
+    margin-top: 7%;
+}
+.lgsng{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 9%; 
+    align-items: left;
+    width: 100%;
+    gap: 52%;
+    margin-left: 17%;
+
+}
+
+.sngup{
+width: 140px;
+height: 49px;
+flex-shrink: 0;
+border-radius: 50px;
+border: 5px solid #DD6E30;
+background: rgba(14, 13, 13, 0.10);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.lgin{
+width: 140px;
+height: 49px;
+flex-shrink: 0;
+border-radius: 50px;
+border: 5px solid #DD6E30;
+background: rgba(14, 13, 13, 0.10);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.sngptxt{
+width: 171px;
+height: 27px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.lgintxt{
+    width: 171px;
+height: 27px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+input {
+    /* Делает само поле ввода прозрачным */
+    background: transparent;
+    /* Убираем рамки вокруг поля ввода */
+    border: none;
+}  
+
+button{
+        background: transparent;
+        border: none;
+        color: #ffffff; /* Цвет текста placeholder'а */
+        font-size: 14px;
+}
+
+.pwdBox input,
+.pwdBox input::placeholder {
+    width: 80%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    color: #ffffff; /* Цвет текста placeholder'а */
+    font-size: 14px;
+}
+
+.pwdBox input:focus {
+    border-color: #007bff;
+}
+
+
+.loginBox input,
+.loginBox input::placeholder {
+    width: 80%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    color: #ffffff; /* Цвет текста placeholder'а */
+    font-size: 14px;
+}
+
+.pwdBox input:focus {
+    border-color: #007bff;
+}
